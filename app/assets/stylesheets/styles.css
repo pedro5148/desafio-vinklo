@@ -1,0 +1,50 @@
+/* Criado para estilizar a home */
+
+:root {
+    --primary-color: #0D6596; 
+    --secondary-color: #F05F40; 
+    --background-color: #F0F0F0; 
+    --text-color: #000000; 
+  }
+  
+  /* Estilos para centralizar a página e os elementos */
+  body {
+    text-align: center;
+    background-color: var(--background-color);
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: var(--primary-color);
+  }
+  
+  #search-form {
+    margin: 20px 0;
+  }
+  
+  .field {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #users {
+    margin: 20px 0;
+  }
+  
+  p {
+    margin: 10px 0;
+    color: var(--text-color);
+  }
+  
